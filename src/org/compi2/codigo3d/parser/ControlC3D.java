@@ -33,6 +33,9 @@ public class ControlC3D {
         bandera=1;
         return "L"+label++;
     }
+    public static int getBandera(){
+        return bandera;
+    }
     /**
      * Agrega la sentencia que recibe como parámetro a la cadena de código
      * de tres direcciones que se va generando hasta ese momento.
